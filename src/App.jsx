@@ -1,10 +1,11 @@
 import './App.css';
 import Todo from './components/Todo.jsx'
+import Title from './components/Title.jsx'
 
 function App() {
   return (
     <div>
-      <h1>My To Do List</h1>
+      <Title />
       <Todo />
       <Todo />
       <Todo />
